@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "projects": "作品集",
+    "about": "關於我",
+    "contact": "聯絡",
+    "resume": "履歷"
+  },
+  "hero": {
+    "title": "嗨，我是 Ricky",
+    "subtitle": "布里斯本全端開發者",
+    "cta": "查看我的作品"
+  },
+  "home": { "featuredTitle": "精選作品", "viewAll": "查看全部" },
+  "projects": {
+    "title": "作品集",
+    "subtitle": "篩選並瀏覽我最近的作品",
+    "backToList": "← 返回作品集"
+  },
+  "filters": {
+    "search": "搜尋",
+    "searchPlaceholder": "搜尋作品…",
+    "status": "狀態",
+    "all": "全部",
+    "completed": "已完成",
+    "inProgress": "進行中",
+    "reset": "重設",
+    "noResults": "沒有符合條件的結果。"
+  },
+  "resume": { "summary": "摘要" },
+  "resumePage": {
+    "download": "下載 PDF",
+    "print": "列印",
+    "backHome": "返回首頁"
+  },
+  "contact": {
+    "title": "聯絡",
+    "subtitle": "想合作或有任何問題？歡迎留言。",
+    "name": "姓名",
+    "namePh": "您的名字",
+    "email": "電子郵件",
+    "emailPh": "you@example.com",
+    "message": "訊息",
+    "messagePh": "簡單描述一下您的專案…",
+    "send": "送出",
+    "sending": "傳送中…",
+    "success": "已收到您的訊息，謝謝！",
+    "errors": {
+      "required": "請完整填寫所有欄位。",
+      "submit": "發送失敗，請稍後再試。"
+    }
+  }
+}

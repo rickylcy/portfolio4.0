@@ -1,0 +1,27 @@
+{
+  "title": "即時聊天應用",
+  "subtitle": "使用 Firebase 的響應式聊天",
+  "status": "completed",
+  "tags": [
+    "Web",
+    "Responsive"
+  ],
+  "cover": "/projects/ricky-chat-app/cover.png",
+  "date": "2024-06-15T00:00:00.000Z",
+  "body": {
+    "raw": "\n## 概覽\n\n中文內容。\n",
+    "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},a=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!_.call(t,o)&&o!==r&&s(t,o,{get:()=>e[o],enumerable:!(c=x(e,o))||c.enumerable});return t};var g=(t,e,r)=>(r=t!=null?u(l(t)):{},a(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),b=t=>a(s({},\"__esModule\",{value:!0}),t);var p=j((y,i)=>{i.exports=_jsx_runtime});var F={};f(F,{default:()=>d,frontmatter:()=>v});var n=g(p()),v={title:\"\\u5373\\u6642\\u804A\\u5929\\u61C9\\u7528\",subtitle:\"\\u4F7F\\u7528 Firebase \\u7684\\u97FF\\u61C9\\u5F0F\\u804A\\u5929\",status:\"completed\",tags:[\"Web\",\"Responsive\"],cover:\"/projects/ricky-chat-app/cover.png\",date:\"2024-06-15\"};function m(t){let e={h2:\"h2\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{id:\"\\u6982\\u89BD\",children:\"\\u6982\\u89BD\"}),`\n`,(0,n.jsx)(e.p,{children:\"\\u4E2D\\u6587\\u5167\\u5BB9\\u3002\"})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return b(F);})();\n;return Component;"
+  },
+  "_id": "projects/realtime-chat-app.zh.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/realtime-chat-app.zh.mdx",
+    "sourceFileName": "realtime-chat-app.zh.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/realtime-chat-app.zh"
+  },
+  "type": "Project",
+  "locale": "zh",
+  "slug": "realtime-chat-app",
+  "url": "/undefined/projects/undefined"
+}

@@ -1,4 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import createNextIntlPlugin from "next-intl/plugin";
+import { withContentlayer } from "next-contentlayer2";
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.js");
+
+export default withContentlayer(
+  withNextIntl({
+    // any other Next.js config
+  })
+);
