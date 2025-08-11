@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getProject, getTwin } from "../../../../lib/projects";
-import { useMDXComponent } from "next-contentlayer2/hooks";
+import MDXRenderer from "../../../../components/MDXRenderer";
 import useMDXComponents from "../../../mdx-components";
 import Image from "next/image";
 
@@ -45,7 +45,6 @@ export default async function ProjectDetail({ params }) {
   const project = getProject(locale, slug);
   if (!project) return notFound();
 
-  const MDX = useMDXComponent(project.body.code);
   const components = useMDXComponents({ Image });
 
   const twin = getTwin(project);
@@ -86,7 +85,7 @@ export default async function ProjectDetail({ params }) {
       </header>
 
       <article className="prose dark:prose-invert max-w-none mt-8">
-        <MDX components={components} />
+        <MDXRenderer code={project.body.code} components={components} />
       </article>
 
       {project.links?.demo && (
