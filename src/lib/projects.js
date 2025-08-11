@@ -11,3 +11,12 @@ export function getProject(locale, slug) {
     allProjects.find((p) => p.locale === locale && p.slug === slug) || null
   );
 }
+
+export function getTwin(project) {
+  if (!project) return null;
+  return (
+    allProjects.find(
+      (p) => p.slug === project.slug && p.locale !== project.locale
+    ) || null
+  );
+}
