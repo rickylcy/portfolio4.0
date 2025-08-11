@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getProject, getTwin } from "../../../../lib/projects";
 import MDXRenderer from "../../../../components/MDXRenderer";
+
 import useMDXComponents from "../../../mdx-components";
 import Image from "next/image";
 
@@ -85,7 +86,7 @@ export default async function ProjectDetail({ params }) {
       </header>
 
       <article className="prose dark:prose-invert max-w-none mt-8">
-        <MDXRenderer code={project.body.code} components={components} />
+        <MDXRenderer code={project.body.code} />
       </article>
 
       {project.links?.demo && (
