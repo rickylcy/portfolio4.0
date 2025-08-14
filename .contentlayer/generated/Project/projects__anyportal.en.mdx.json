@@ -1,0 +1,29 @@
+{
+  "title": "Anyportal",
+  "subtitle": "Online Forum",
+  "status": "in-progress",
+  "tags": [
+    "Self-Learning",
+    "Mobile-Web"
+  ],
+  "cover": "/anyportal.png",
+  "links": {
+    "demo": "https://anyportal.vercel.app"
+  },
+  "body": {
+    "raw": "\n## Overview\n\nAn online forum project for discussions. (Known 404 issue on first load — a refresh fixes it.)\n\n## Technologies\n\n- Next.js\n- CSS\n- JavaScript\n- MongoDB (planned)\n\n## Tasks\n\n- Design a responsive forum UI\n- Implement authentication\n- Set up MongoDB for data storage\n",
+    "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),v=(e,n)=>{for(var t in n)o(e,t,{get:n[t],enumerable:!0})},s=(e,n,t,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of m(n))!g.call(e,r)&&r!==t&&o(e,r,{get:()=>n[r],enumerable:!(l=u(n,r))||l.enumerable});return e};var j=(e,n,t)=>(t=e!=null?p(f(e)):{},s(n||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var c=x((w,a)=>{a.exports=_jsx_runtime});var D={};v(D,{default:()=>h,frontmatter:()=>M});var i=j(c()),M={title:\"Anyportal\",subtitle:\"Online Forum\",status:\"in-progress\",tags:[\"Self-Learning\",\"Mobile-Web\"],cover:\"/anyportal.png\",links:{demo:\"https://anyportal.vercel.app\"}};function d(e){let n={h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...e.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(n.h2,{id:\"overview\",children:\"Overview\"}),`\n`,(0,i.jsx)(n.p,{children:\"An online forum project for discussions. (Known 404 issue on first load \\u2014 a refresh fixes it.)\"}),`\n`,(0,i.jsx)(n.h2,{id:\"technologies\",children:\"Technologies\"}),`\n`,(0,i.jsxs)(n.ul,{children:[`\n`,(0,i.jsx)(n.li,{children:\"Next.js\"}),`\n`,(0,i.jsx)(n.li,{children:\"CSS\"}),`\n`,(0,i.jsx)(n.li,{children:\"JavaScript\"}),`\n`,(0,i.jsx)(n.li,{children:\"MongoDB (planned)\"}),`\n`]}),`\n`,(0,i.jsx)(n.h2,{id:\"tasks\",children:\"Tasks\"}),`\n`,(0,i.jsxs)(n.ul,{children:[`\n`,(0,i.jsx)(n.li,{children:\"Design a responsive forum UI\"}),`\n`,(0,i.jsx)(n.li,{children:\"Implement authentication\"}),`\n`,(0,i.jsx)(n.li,{children:\"Set up MongoDB for data storage\"}),`\n`]})]})}function h(e={}){let{wrapper:n}=e.components||{};return n?(0,i.jsx)(n,{...e,children:(0,i.jsx)(d,{...e})}):d(e)}return _(D);})();\n;return Component;"
+  },
+  "_id": "projects/anyportal.en.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/anyportal.en.mdx",
+    "sourceFileName": "anyportal.en.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/anyportal.en"
+  },
+  "type": "Project",
+  "locale": "en",
+  "slug": "anyportal",
+  "url": "/undefined/projects/undefined"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "銷售報表網站",
+  "subtitle": "公司產品",
+  "status": "completed",
+  "tags": [
+    "Web",
+    "Mobile-Web",
+    "Responsive"
+  ],
+  "cover": "/sales-report.jpg",
+  "body": {
+    "raw": "\n## 概覽\n\n可視化銷售數據的內部網站，提供響應式圖表與詳細報表。\n\n## 技術\n\n- React\n- Material-UI\n- JavaScript\n- Chart.js\n- HTML/CSS\n\n## 任務\n\n- 以 React + Material-UI 製作介面\n- 串接 API 顯示即時數據\n- 使用 Chart.js 建立互動圖表\n- 部署應用\n\n## 截圖\n\n- `/report.png`\n- `/report-1.png`\n",
+    "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var M=(i,n)=>()=>(n||i((n={exports:{}}).exports,n),n.exports),_=(i,n)=>{for(var l in n)t(i,l,{get:n[l],enumerable:!0})},d=(i,n,l,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of m(n))!j.call(i,r)&&r!==l&&t(i,r,{get:()=>n[r],enumerable:!(c=u(n,r))||c.enumerable});return i};var g=(i,n,l)=>(l=i!=null?p(x(i)):{},d(n||!i||!i.__esModule?t(l,\"default\",{value:i,enumerable:!0}):l,i)),f=i=>d(t({},\"__esModule\",{value:!0}),i);var o=M((I,h)=>{h.exports=_jsx_runtime});var b={};_(b,{default:()=>a,frontmatter:()=>C});var e=g(o()),C={title:\"\\u92B7\\u552E\\u5831\\u8868\\u7DB2\\u7AD9\",subtitle:\"\\u516C\\u53F8\\u7522\\u54C1\",status:\"completed\",tags:[\"Web\",\"Mobile-Web\",\"Responsive\"],cover:\"/sales-report.jpg\"};function s(i){let n={code:\"code\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...i.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{id:\"\\u6982\\u89BD\",children:\"\\u6982\\u89BD\"}),`\n`,(0,e.jsx)(n.p,{children:\"\\u53EF\\u8996\\u5316\\u92B7\\u552E\\u6578\\u64DA\\u7684\\u5167\\u90E8\\u7DB2\\u7AD9\\uFF0C\\u63D0\\u4F9B\\u97FF\\u61C9\\u5F0F\\u5716\\u8868\\u8207\\u8A73\\u7D30\\u5831\\u8868\\u3002\"}),`\n`,(0,e.jsx)(n.h2,{id:\"\\u6280\\u8853\",children:\"\\u6280\\u8853\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"React\"}),`\n`,(0,e.jsx)(n.li,{children:\"Material-UI\"}),`\n`,(0,e.jsx)(n.li,{children:\"JavaScript\"}),`\n`,(0,e.jsx)(n.li,{children:\"Chart.js\"}),`\n`,(0,e.jsx)(n.li,{children:\"HTML/CSS\"}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{id:\"\\u4EFB\\u52D9\",children:\"\\u4EFB\\u52D9\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"\\u4EE5 React + Material-UI \\u88FD\\u4F5C\\u4ECB\\u9762\"}),`\n`,(0,e.jsx)(n.li,{children:\"\\u4E32\\u63A5 API \\u986F\\u793A\\u5373\\u6642\\u6578\\u64DA\"}),`\n`,(0,e.jsx)(n.li,{children:\"\\u4F7F\\u7528 Chart.js \\u5EFA\\u7ACB\\u4E92\\u52D5\\u5716\\u8868\"}),`\n`,(0,e.jsx)(n.li,{children:\"\\u90E8\\u7F72\\u61C9\\u7528\"}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{id:\"\\u622A\\u5716\",children:\"\\u622A\\u5716\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:\"/report.png\"})}),`\n`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:\"/report-1.png\"})}),`\n`]})]})}function a(i={}){let{wrapper:n}=i.components||{};return n?(0,e.jsx)(n,{...i,children:(0,e.jsx)(s,{...i})}):s(i)}return f(b);})();\n;return Component;"
+  },
+  "_id": "projects/sales-report-website.zh.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/sales-report-website.zh.mdx",
+    "sourceFileName": "sales-report-website.zh.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/sales-report-website.zh"
+  },
+  "type": "Project",
+  "locale": "zh",
+  "slug": "sales-report-website",
+  "url": "/undefined/projects/undefined"
+}

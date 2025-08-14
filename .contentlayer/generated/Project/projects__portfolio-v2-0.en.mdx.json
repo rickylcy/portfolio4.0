@@ -1,0 +1,31 @@
+{
+  "title": "Portfolio v2.0",
+  "subtitle": "Portfolio for demo",
+  "status": "in-progress",
+  "tags": [
+    "Web",
+    "Mobile-Web",
+    "Responsive",
+    "Self-Learning"
+  ],
+  "cover": "/portfolio.png",
+  "links": {
+    "demo": "https://portfolio2024-ricky.vercel.app/"
+  },
+  "body": {
+    "raw": "\n## Overview\n\nA personal portfolio showcasing projects and skills.\n\n## Technologies\n\n- React\n- Joy UI\n- SMTP EmailJS\n\n## Tasks\n\n- Build responsive UI with React + Joy UI\n- Add contact email flow\n- Deploy the site\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var v=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var o in e)l(n,o,{get:e[o],enumerable:!0})},s=(n,e,o,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of f(e))!g.call(n,t)&&t!==o&&l(n,t,{get:()=>e[t],enumerable:!(r=u(e,t))||r.enumerable});return n};var _=(n,e,o)=>(o=n!=null?p(m(n)):{},s(e||!n||!n.__esModule?l(o,\"default\",{value:n,enumerable:!0}):o,n)),j=n=>s(l({},\"__esModule\",{value:!0}),n);var d=v((M,c)=>{c.exports=_jsx_runtime});var k={};x(k,{default:()=>a,frontmatter:()=>w});var i=_(d()),w={title:\"Portfolio v2.0\",subtitle:\"Portfolio for demo\",status:\"in-progress\",tags:[\"Web\",\"Mobile-Web\",\"Responsive\",\"Self-Learning\"],cover:\"/portfolio.png\",links:{demo:\"https://portfolio2024-ricky.vercel.app/\"}};function h(n){let e={h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...n.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(e.h2,{id:\"overview\",children:\"Overview\"}),`\n`,(0,i.jsx)(e.p,{children:\"A personal portfolio showcasing projects and skills.\"}),`\n`,(0,i.jsx)(e.h2,{id:\"technologies\",children:\"Technologies\"}),`\n`,(0,i.jsxs)(e.ul,{children:[`\n`,(0,i.jsx)(e.li,{children:\"React\"}),`\n`,(0,i.jsx)(e.li,{children:\"Joy UI\"}),`\n`,(0,i.jsx)(e.li,{children:\"SMTP EmailJS\"}),`\n`]}),`\n`,(0,i.jsx)(e.h2,{id:\"tasks\",children:\"Tasks\"}),`\n`,(0,i.jsxs)(e.ul,{children:[`\n`,(0,i.jsx)(e.li,{children:\"Build responsive UI with React + Joy UI\"}),`\n`,(0,i.jsx)(e.li,{children:\"Add contact email flow\"}),`\n`,(0,i.jsx)(e.li,{children:\"Deploy the site\"}),`\n`]})]})}function a(n={}){let{wrapper:e}=n.components||{};return e?(0,i.jsx)(e,{...n,children:(0,i.jsx)(h,{...n})}):h(n)}return j(k);})();\n;return Component;"
+  },
+  "_id": "projects/portfolio-v2-0.en.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/portfolio-v2-0.en.mdx",
+    "sourceFileName": "portfolio-v2-0.en.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/portfolio-v2-0.en"
+  },
+  "type": "Project",
+  "locale": "en",
+  "slug": "portfolio-v2-0",
+  "url": "/undefined/projects/undefined"
+}

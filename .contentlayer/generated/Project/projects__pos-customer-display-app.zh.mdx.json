@@ -1,0 +1,26 @@
+{
+  "title": "POS 顧客顯示應用",
+  "subtitle": "POS 相關產品",
+  "status": "completed",
+  "tags": [
+    "Application",
+    "Responsive"
+  ],
+  "cover": "/second-display.jpg",
+  "body": {
+    "raw": "\n## 概覽\n\n面向顧客的顯示螢幕應用，呈現點餐明細與廣告，支援多種螢幕尺寸。\n\n## 技術\n\n- C#\n- WPF\n\n## 任務\n\n- 使用 C# + WPF 建置桌面介面\n- 針對不同尺寸螢幕調整響應式版面\n- 打包與部署應用\n\n## 截圖\n\n- `/second-display.jpg`\n",
+    "code": "var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var _=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var l in n)c(e,l,{get:n[l],enumerable:!0})},d=(e,n,l,r)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of m(n))!j.call(e,t)&&t!==l&&c(e,t,{get:()=>n[t],enumerable:!(r=u(n,t))||r.enumerable});return e};var g=(e,n,l)=>(l=e!=null?p(x(e)):{},d(n||!e||!e.__esModule?c(l,\"default\",{value:e,enumerable:!0}):l,e)),C=e=>d(c({},\"__esModule\",{value:!0}),e);var s=_((M,o)=>{o.exports=_jsx_runtime});var P={};f(P,{default:()=>a,frontmatter:()=>F});var i=g(s()),F={title:\"POS \\u9867\\u5BA2\\u986F\\u793A\\u61C9\\u7528\",subtitle:\"POS \\u76F8\\u95DC\\u7522\\u54C1\",status:\"completed\",tags:[\"Application\",\"Responsive\"],cover:\"/second-display.jpg\"};function h(e){let n={code:\"code\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...e.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(n.h2,{id:\"\\u6982\\u89BD\",children:\"\\u6982\\u89BD\"}),`\n`,(0,i.jsx)(n.p,{children:\"\\u9762\\u5411\\u9867\\u5BA2\\u7684\\u986F\\u793A\\u87A2\\u5E55\\u61C9\\u7528\\uFF0C\\u5448\\u73FE\\u9EDE\\u9910\\u660E\\u7D30\\u8207\\u5EE3\\u544A\\uFF0C\\u652F\\u63F4\\u591A\\u7A2E\\u87A2\\u5E55\\u5C3A\\u5BF8\\u3002\"}),`\n`,(0,i.jsx)(n.h2,{id:\"\\u6280\\u8853\",children:\"\\u6280\\u8853\"}),`\n`,(0,i.jsxs)(n.ul,{children:[`\n`,(0,i.jsx)(n.li,{children:\"C#\"}),`\n`,(0,i.jsx)(n.li,{children:\"WPF\"}),`\n`]}),`\n`,(0,i.jsx)(n.h2,{id:\"\\u4EFB\\u52D9\",children:\"\\u4EFB\\u52D9\"}),`\n`,(0,i.jsxs)(n.ul,{children:[`\n`,(0,i.jsx)(n.li,{children:\"\\u4F7F\\u7528 C# + WPF \\u5EFA\\u7F6E\\u684C\\u9762\\u4ECB\\u9762\"}),`\n`,(0,i.jsx)(n.li,{children:\"\\u91DD\\u5C0D\\u4E0D\\u540C\\u5C3A\\u5BF8\\u87A2\\u5E55\\u8ABF\\u6574\\u97FF\\u61C9\\u5F0F\\u7248\\u9762\"}),`\n`,(0,i.jsx)(n.li,{children:\"\\u6253\\u5305\\u8207\\u90E8\\u7F72\\u61C9\\u7528\"}),`\n`]}),`\n`,(0,i.jsx)(n.h2,{id:\"\\u622A\\u5716\",children:\"\\u622A\\u5716\"}),`\n`,(0,i.jsxs)(n.ul,{children:[`\n`,(0,i.jsx)(n.li,{children:(0,i.jsx)(n.code,{children:\"/second-display.jpg\"})}),`\n`]})]})}function a(e={}){let{wrapper:n}=e.components||{};return n?(0,i.jsx)(n,{...e,children:(0,i.jsx)(h,{...e})}):h(e)}return C(P);})();\n;return Component;"
+  },
+  "_id": "projects/pos-customer-display-app.zh.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/pos-customer-display-app.zh.mdx",
+    "sourceFileName": "pos-customer-display-app.zh.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/pos-customer-display-app.zh"
+  },
+  "type": "Project",
+  "locale": "zh",
+  "slug": "pos-customer-display-app",
+  "url": "/undefined/projects/undefined"
+}

@@ -9,7 +9,6 @@ export async function generateStaticParams() {
   const { allProjects } = await import("contentlayer/generated");
   return allProjects.map((p) => ({ locale: p.locale, slug: p.slug }));
 }
-
 export async function generateMetadata({ params }) {
   const { locale, slug } = await params;
   const project = getProject(locale, slug);

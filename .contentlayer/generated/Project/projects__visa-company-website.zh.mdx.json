@@ -1,0 +1,30 @@
+{
+  "title": "簽證公司網站",
+  "subtitle": "Visa-to-China 企業網站開發",
+  "status": "completed",
+  "tags": [
+    "Web",
+    "Mobile-Web",
+    "Responsive"
+  ],
+  "cover": "/visa-logo.jpg",
+  "links": {
+    "demo": "https://visatochina.com.au/"
+  },
+  "body": {
+    "raw": "\n## 概覽\n\n為布里斯本簽證公司打造的行銷與資訊網站，協助澳洲用戶申辦中國簽證。\n\n## 技術\n\n- React\n- Material-UI\n- JavaScript\n- HTML/CSS\n- Facebook SDK\n\n## 任務\n\n- 以 React + Material-UI 製作介面\n- 串接第三方 SDK / API\n- 部署並託管網站\n\n## 截圖\n\n- `/visa.png`\n",
+    "code": "var Component=(()=>{var u=Object.create;var c=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,M=Object.prototype.hasOwnProperty;var _=(i,n)=>()=>(n||i((n={exports:{}}).exports,n),n.exports),g=(i,n)=>{for(var l in n)c(i,l,{get:n[l],enumerable:!0})},o=(i,n,l,r)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of p(n))!M.call(i,t)&&t!==l&&c(i,t,{get:()=>n[t],enumerable:!(r=m(n,t))||r.enumerable});return i};var j=(i,n,l)=>(l=i!=null?u(x(i)):{},o(n||!i||!i.__esModule?c(l,\"default\",{value:i,enumerable:!0}):l,i)),v=i=>o(c({},\"__esModule\",{value:!0}),i);var h=_((C,d)=>{d.exports=_jsx_runtime});var f={};g(f,{default:()=>s,frontmatter:()=>b});var e=j(h()),b={title:\"\\u7C3D\\u8B49\\u516C\\u53F8\\u7DB2\\u7AD9\",subtitle:\"Visa-to-China \\u4F01\\u696D\\u7DB2\\u7AD9\\u958B\\u767C\",status:\"completed\",tags:[\"Web\",\"Mobile-Web\",\"Responsive\"],cover:\"/visa-logo.jpg\",links:{demo:\"https://visatochina.com.au/\"}};function a(i){let n={code:\"code\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...i.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h2,{id:\"\\u6982\\u89BD\",children:\"\\u6982\\u89BD\"}),`\n`,(0,e.jsx)(n.p,{children:\"\\u70BA\\u5E03\\u91CC\\u65AF\\u672C\\u7C3D\\u8B49\\u516C\\u53F8\\u6253\\u9020\\u7684\\u884C\\u92B7\\u8207\\u8CC7\\u8A0A\\u7DB2\\u7AD9\\uFF0C\\u5354\\u52A9\\u6FB3\\u6D32\\u7528\\u6236\\u7533\\u8FA6\\u4E2D\\u570B\\u7C3D\\u8B49\\u3002\"}),`\n`,(0,e.jsx)(n.h2,{id:\"\\u6280\\u8853\",children:\"\\u6280\\u8853\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"React\"}),`\n`,(0,e.jsx)(n.li,{children:\"Material-UI\"}),`\n`,(0,e.jsx)(n.li,{children:\"JavaScript\"}),`\n`,(0,e.jsx)(n.li,{children:\"HTML/CSS\"}),`\n`,(0,e.jsx)(n.li,{children:\"Facebook SDK\"}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{id:\"\\u4EFB\\u52D9\",children:\"\\u4EFB\\u52D9\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"\\u4EE5 React + Material-UI \\u88FD\\u4F5C\\u4ECB\\u9762\"}),`\n`,(0,e.jsx)(n.li,{children:\"\\u4E32\\u63A5\\u7B2C\\u4E09\\u65B9 SDK / API\"}),`\n`,(0,e.jsx)(n.li,{children:\"\\u90E8\\u7F72\\u4E26\\u8A17\\u7BA1\\u7DB2\\u7AD9\"}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{id:\"\\u622A\\u5716\",children:\"\\u622A\\u5716\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:\"/visa.png\"})}),`\n`]})]})}function s(i={}){let{wrapper:n}=i.components||{};return n?(0,e.jsx)(n,{...i,children:(0,e.jsx)(a,{...i})}):a(i)}return v(f);})();\n;return Component;"
+  },
+  "_id": "projects/visa-company-website.zh.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/visa-company-website.zh.mdx",
+    "sourceFileName": "visa-company-website.zh.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/visa-company-website.zh"
+  },
+  "type": "Project",
+  "locale": "zh",
+  "slug": "visa-company-website",
+  "url": "/undefined/projects/undefined"
+}
