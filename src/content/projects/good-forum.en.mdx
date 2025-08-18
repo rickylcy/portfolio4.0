@@ -1,0 +1,37 @@
+---
+title: "Good-Forum (吹水台)"
+subtitle: "LIHKG-style forum clone with mobile-first UX"
+status: "In Progress"
+tags:
+  - Web
+  - Forum
+  - Next.js
+  - MongoDB
+  - Tailwind
+  - shadcn/ui
+  - Mobile-Web
+cover: "/good-forum.svg"
+date: "2025-06-27"
+---
+
+**Overview**  
+A lightweight forum inspired by LIHKG. It focuses on fast browsing without login, then gated actions (reply/post) via centered auth modals.
+
+**Notable UX**
+
+- Route structure: `/category/[id]` with **0** = 吹水台 (all threads).
+- Left drawer for categories (like LIHKG).
+- Unauthenticated users can read; **reply/post requires login**.
+- **Centered** login & signup modals, unified toasts (Toastify) for feedback.
+
+**Tech**
+
+- Next.js + Tailwind + **shadcn/ui**
+- MongoDB database named **`good-forum`**
+- Toastify for status updates
+
+**Next Steps**
+
+- Pagination & infinite scroll
+- Rate limit & moderation tools
+- Rich editor with image upload

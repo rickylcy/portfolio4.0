@@ -3,7 +3,9 @@
     "projects": "Projects",
     "about": "About",
     "contact": "Contact",
-    "resume": "Resume"
+    "resume": "Resume",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
     "title": "Hi, I’m Ricky",
@@ -25,6 +27,35 @@
     "inProgress": "In Progress",
     "reset": "Reset",
     "noResults": "No results match your filters."
+  },
+  "hero": {
+    "title": "Hi, I’m Ricky",
+    "subtitle": "Full-stack developer in Brisbane",
+    "cta": "See my work"
+  },
+  "home": {
+    "featuredTitle": "Featured projects",
+    "viewAll": "View all",
+    "stats": {
+      "shipped": "Projects shipped",
+      "experience": "Commercial experience",
+      "location": "Based in"
+    },
+    "resumeTitle": "Grab my resume",
+    "resumeBlurb": "One-page PDF, bilingual and printer-friendly.",
+    "viewResume": "View",
+    "downloadResume": "Download PDF"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My technical level",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "levels": {
+      "basic": "Basic",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
   },
   "resume": { "summary": "Summary" },
   "contact": {

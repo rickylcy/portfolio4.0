@@ -1,0 +1,15 @@
+<svg width="700" height="700" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="700" fill="#4a4444"/>
+  <!-- passport/book -->
+  <rect x="155" y="150" rx="28" ry="28" width="280" height="400" fill="none" stroke="#f5f3f2" stroke-width="22"/>
+  <line x1="155" y1="230" x2="435" y2="230" stroke="#f5f3f2" stroke-width="22"/>
+  <!-- globe on passport -->
+  <circle cx="295" cy="345" r="80" fill="none" stroke="#f5f3f2" stroke-width="16"/>
+  <ellipse cx="295" cy="345" rx="80" ry="36" fill="none" stroke="#f5f3f2" stroke-width="12"/>
+  <line x1="215" y1="345" x2="375" y2="345" stroke="#f5f3f2" stroke-width="12"/>
+  <path d="M295 265c22 26 35 51 35 80s-13 54-35 80m0-160c-22 26-35 51-35 80s13 54 35 80" fill="none" stroke="#f5f3f2" stroke-width="12"/>
+  <!-- plane (travel/visa) -->
+  <path d="M540 320l-144 36 48 30 108-24 42 24-42 10 34 20-44 10-44-20-72 16-32 24-28-16 32-36 72-48-80-26 24-18 146 18z" fill="#f5f3f2"/>
+  <!-- label -->
+  <text x="350" y="640" text-anchor="middle" font-size="54" fill="#f5f3f2" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">VISA COMPANY</text>
+</svg>

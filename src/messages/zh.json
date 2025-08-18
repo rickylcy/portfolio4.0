@@ -1,9 +1,11 @@
 {
   "nav": {
-    "projects": "作品集",
+    "projects": "作品",
     "about": "關於我",
     "contact": "聯絡",
-    "resume": "履歷"
+    "resume": "履歷",
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單"
   },
   "hero": {
     "title": "嗨，我是 Ricky",
@@ -25,6 +27,31 @@
     "inProgress": "進行中",
     "reset": "重設",
     "noResults": "沒有符合條件的結果。"
+  },
+  "hero": {
+    "title": "嗨，我是 Ricky",
+    "subtitle": "布里斯本全端開發者",
+    "cta": "查看我的作品"
+  },
+  "home": {
+    "featuredTitle": "精選作品",
+    "viewAll": "查看全部",
+    "stats": {
+      "shipped": "已交付專案",
+      "experience": "商用經驗",
+      "location": "所在位置"
+    },
+    "resumeTitle": "下載我的履歷",
+    "resumeBlurb": "一頁式 PDF，雙語、可列印。",
+    "viewResume": "查看",
+    "downloadResume": "下載 PDF"
+  },
+  "skills": {
+    "title": "技能",
+    "subtitle": "我的技術程度",
+    "frontend": "前端",
+    "backend": "後端",
+    "levels": { "basic": "基礎", "intermediate": "中階", "advanced": "進階" }
   },
   "resume": { "summary": "摘要" },
   "resumePage": {

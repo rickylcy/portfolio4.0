@@ -1,0 +1,11 @@
+<svg width="700" height="700" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="700" fill="#4a4444"/>
+  <!-- browser with four version dots -->
+  <rect x="120" y="160" rx="22" ry="22" width="460" height="320" fill="none" stroke="#f5f3f2" stroke-width="22"/>
+  <circle cx="250" cy="200" r="10" fill="#f5f3f2"/><circle cx="315" cy="200" r="10" fill="#f5f3f2"/>
+  <circle cx="385" cy="200" r="10" fill="#f5f3f2"/><circle cx="450" cy="200" r="10" fill="#f5f3f2"/>
+  <!-- shadcn-style card + cursor -->
+  <rect x="170" y="250" width="360" height="180" rx="18" fill="none" stroke="#f5f3f2" stroke-width="16"/>
+  <path d="M450 390l70 70-35 12-12 35-70-70z" fill="#f5f3f2"/>
+  <text x="350" y="640" text-anchor="middle" font-size="54" fill="#f5f3f2" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">PORTFOLIO 4.0</text>
+</svg>

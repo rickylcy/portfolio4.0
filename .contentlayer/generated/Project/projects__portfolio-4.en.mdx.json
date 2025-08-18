@@ -1,0 +1,31 @@
+{
+  "title": "Portfolio 4.0",
+  "subtitle": "Next.js + Tailwind + shadcn/ui — bilingual",
+  "status": "In Progress",
+  "tags": [
+    "Web",
+    "Responsive",
+    "Next.js",
+    "Tailwind",
+    "shadcn/ui",
+    "Bilingual"
+  ],
+  "cover": "/portfolio-4.svg",
+  "date": "2025-08-11T00:00:00.000Z",
+  "body": {
+    "raw": "\n**Goal**  \nModernize my portfolio with a production-ready stack and better content management.\n\n**Key Features**\n\n- **Next.js (App Router)** with Contentlayer for MDX projects.\n- **Tailwind + shadcn/ui** (theme toggle, soft micro-animations).\n- **EN / 中文** from day one; copy and navigation localized.\n- On-page résumé preview with **Download/Print** action.\n- Migrated components & ideas from 3.0 (ProfileSection, AboutMeSection, BackgroundModal, PortfolioSection).\n\n**Tech**\n\n- Next.js, Tailwind CSS, shadcn/ui, Contentlayer\n- JSX (no TS per preference)\n- Light/Dark theme respecting reduced-motion\n\n**Roadmap**\n\n- Polish animations, add more project case studies, integrate contact form with rate limiting.\n",
+    "code": "var Component=(()=>{var g=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),j=(t,n)=>{for(var i in n)o(t,i,{get:n[i],enumerable:!0})},c=(t,n,i,l)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of m(n))!f.call(t,r)&&r!==i&&o(t,r,{get:()=>n[r],enumerable:!(l=u(n,r))||l.enumerable});return t};var w=(t,n,i)=>(i=t!=null?g(p(t)):{},c(n||!t||!t.__esModule?o(i,\"default\",{value:t,enumerable:!0}):i,t)),b=t=>c(o({},\"__esModule\",{value:!0}),t);var d=x((_,a)=>{a.exports=_jsx_runtime});var M={};j(M,{default:()=>h,frontmatter:()=>y});var e=w(d()),y={title:\"Portfolio 4.0\",subtitle:\"Next.js + Tailwind + shadcn/ui \\u2014 bilingual\",status:\"In Progress\",tags:[\"Web\",\"Responsive\",\"Next.js\",\"Tailwind\",\"shadcn/ui\",\"Bilingual\"],cover:\"/portfolio-4.svg\",date:\"2025-08-11\"};function s(t){let n={br:\"br\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...t.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:\"Goal\"}),(0,e.jsx)(n.br,{}),`\n`,\"Modernize my portfolio with a production-ready stack and better content management.\"]}),`\n`,(0,e.jsx)(n.p,{children:(0,e.jsx)(n.strong,{children:\"Key Features\"})}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Next.js (App Router)\"}),\" with Contentlayer for MDX projects.\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Tailwind + shadcn/ui\"}),\" (theme toggle, soft micro-animations).\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"EN / \\u4E2D\\u6587\"}),\" from day one; copy and navigation localized.\"]}),`\n`,(0,e.jsxs)(n.li,{children:[\"On-page r\\xE9sum\\xE9 preview with \",(0,e.jsx)(n.strong,{children:\"Download/Print\"}),\" action.\"]}),`\n`,(0,e.jsx)(n.li,{children:\"Migrated components & ideas from 3.0 (ProfileSection, AboutMeSection, BackgroundModal, PortfolioSection).\"}),`\n`]}),`\n`,(0,e.jsx)(n.p,{children:(0,e.jsx)(n.strong,{children:\"Tech\"})}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"Next.js, Tailwind CSS, shadcn/ui, Contentlayer\"}),`\n`,(0,e.jsx)(n.li,{children:\"JSX (no TS per preference)\"}),`\n`,(0,e.jsx)(n.li,{children:\"Light/Dark theme respecting reduced-motion\"}),`\n`]}),`\n`,(0,e.jsx)(n.p,{children:(0,e.jsx)(n.strong,{children:\"Roadmap\"})}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"Polish animations, add more project case studies, integrate contact form with rate limiting.\"}),`\n`]})]})}function h(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,{...t,children:(0,e.jsx)(s,{...t})}):s(t)}return b(M);})();\n;return Component;"
+  },
+  "_id": "projects/portfolio-4.en.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/portfolio-4.en.mdx",
+    "sourceFileName": "portfolio-4.en.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/portfolio-4.en"
+  },
+  "type": "Project",
+  "locale": "en",
+  "slug": "portfolio-4",
+  "url": "/undefined/projects/undefined"
+}
