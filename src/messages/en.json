@@ -51,6 +51,7 @@
     "subtitle": "My technical level",
     "frontend": "Frontend",
     "backend": "Backend",
+    "tooling": "Tooling & Platform",
     "levels": {
       "basic": "Basic",
       "intermediate": "Intermediate",

@@ -46,11 +46,13 @@
     "viewResume": "查看",
     "downloadResume": "下載 PDF"
   },
+
   "skills": {
     "title": "技能",
     "subtitle": "我的技術程度",
     "frontend": "前端",
     "backend": "後端",
+    "tooling": "工具與平台",
     "levels": { "basic": "基礎", "intermediate": "中階", "advanced": "進階" }
   },
   "resume": { "summary": "摘要" },

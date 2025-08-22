@@ -155,3 +155,86 @@ body {
     @apply bg-background text-foreground;
   }
 }
+/* === Accessibility toggles (stronger site-wide effects) === */
+
+/* Bigger base text (bump more so it's obvious) */
+html.a11y-text-lg {
+  font-size: 20px;
+}
+@media (min-width: 1024px) {
+  html.a11y-text-lg {
+    font-size: 21px;
+  }
+}
+
+/* Spacious line-height: hit typical text containers too */
+html.a11y-line-spacious body,
+html.a11y-line-spacious p,
+html.a11y-line-spacious li,
+html.a11y-line-spacious .prose :where(p, li) {
+  line-height: 1.85 !important;
+}
+
+/* Underline all links (also inside shadcn components) */
+html.a11y-underline-links :where(a) {
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
+/* Always show focus outline, regardless of focus-visible/rings */
+html.a11y-focus-always
+  :where(a, button, input, textarea, select, [role="button"]):focus {
+  outline: 2px solid #2563eb !important;
+  outline-offset: 2px;
+}
+
+/* Reduce motion (CSS animations & transitions) */
+html.a11y-reduce-motion *,
+html.a11y-reduce-motion *::before,
+html.a11y-reduce-motion *::after {
+  animation-duration: 0.001s !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001s !important;
+  scroll-behavior: auto !important;
+}
+
+/* High contrast: override shadcn/ui HSL tokens so components update */
+html.a11y-contrast {
+  /* Light theme tokens */
+  --background: 255 255 255; /* white */
+  --foreground: 10 10 10; /* almost black */
+
+  --muted: 243 244 246; /* zinc-100 */
+  --muted-foreground: 55 65 81; /* zinc-700 */
+
+  --accent: 229 231 235; /* zinc-200 */
+  --accent-foreground: 17 24 39; /* zinc-900 */
+
+  --border: 30 41 59; /* stronger border (slate-800-ish) */
+  --input: 30 41 59;
+  --ring: 37 99 235; /* blue-600 for visible rings */
+}
+
+html.dark.a11y-contrast {
+  /* Dark theme tokens */
+  --background: 10 10 10; /* near-black */
+  --foreground: 250 250 250; /* near-white */
+
+  --muted: 24 24 27; /* zinc-900 */
+  --muted-foreground: 209 213 219; /* zinc-300 */
+
+  --accent: 39 39 42; /* zinc-800 */
+  --accent-foreground: 250 250 250;
+
+  --border: 113 113 122; /* zinc-500-ish for clear borders */
+  --input: 113 113 122;
+  --ring: 59 130 246; /* blue-500 */
+}
+
+/* Also make “muted” text more legible when high contrast is on */
+html.a11y-contrast .text-muted-foreground {
+  color: rgb(55 65 81) !important;
+}
+html.dark.a11y-contrast .text-muted-foreground {
+  color: rgb(209 213 219) !important;
+}

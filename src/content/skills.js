@@ -25,6 +25,15 @@ export const skills = {
     { name: "MongoDB", level: "basic" },
     { name: "Firebase", level: "intermediate" },
     { name: "GraphQL", level: "basic" },
-    { name: "Email (Resend, nodemail.. )", level: "basic" },
+    { name: "Email (Resend / Nodemailer)", level: "basic" },
+  ],
+  tooling: [
+    { name: "Vercel", level: "intermediate" },
+    { name: "GitHub Actions", level: "basic" },
+    { name: "Playwright (e2e)", level: "basic" },
+    { name: "Postman", level: "basic" },
+    { name: "Figma (handoff)", level: "basic" },
+    { name: "Docker", level: "basic" },
+    { name: "Lighthouse / CWV", level: "basic" },
   ],
 };

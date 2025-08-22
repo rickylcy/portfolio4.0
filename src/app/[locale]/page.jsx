@@ -5,6 +5,8 @@ import FeaturedProjects from "../../components/FeaturedProjects";
 import { getProjectsByLocale } from "../../lib/projects";
 import ResumePreviewCard from "../../components/ResumePreviewCard";
 import SkillsSection from "@/components/SkillsSection";
+import LighthouseBadges from "../../components/home/LighthouseBadges";
+import A11yChecklist from "../../components/home/A11yChecklist";
 
 export default async function HomePage({ params }) {
   const { locale } = await params;
@@ -29,6 +31,8 @@ export default async function HomePage({ params }) {
       <FeaturedProjects items={items} />
 
       <SkillsSection />
+
+      <A11yChecklist />
 
       {/* Resume preview */}
       <ResumePreviewCard
