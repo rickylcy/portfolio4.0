@@ -38,7 +38,6 @@ export default async function AboutPage({ params }) {
         <ol className="mt-4 border-l pl-5 space-y-6">
           {data.timeline.map((item, i) => (
             <li key={i} className="relative">
-              <span className="absolute -left-2 top-1.5 h-3 w-3 rounded-full bg-zinc-400 dark:bg-zinc-600" />
               <div className="text-sm text-gray-500 dark:text-gray-400">
                 {item.period}
               </div>

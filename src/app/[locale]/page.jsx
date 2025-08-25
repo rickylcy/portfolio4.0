@@ -32,8 +32,6 @@ export default async function HomePage({ params }) {
 
       <SkillsSection />
 
-      <A11yChecklist />
-
       {/* Resume preview */}
       <ResumePreviewCard
         locale={locale}

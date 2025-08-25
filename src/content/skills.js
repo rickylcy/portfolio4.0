@@ -8,7 +8,6 @@ export const skills = {
     { name: "Material UI", level: "intermediate" },
 
     { name: "Zustand", level: "intermediate" },
-    { name: "Git", level: "intermediate" },
 
     { name: "Framer Motion", level: "basic" },
     { name: "next-intl (i18n)", level: "basic" },
@@ -29,6 +28,8 @@ export const skills = {
   ],
   tooling: [
     { name: "Vercel", level: "intermediate" },
+
+    { name: "Git", level: "intermediate" },
     { name: "GitHub Actions", level: "basic" },
     { name: "Playwright (e2e)", level: "basic" },
     { name: "Postman", level: "basic" },
