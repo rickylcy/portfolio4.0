@@ -84,7 +84,6 @@ export default function SiteHeader() {
 
           {/* Right: actions */}
           <div className="flex items-center justify-end gap-2 sm:gap-3">
-            <ThemeToggle />
             <LanguageSwitch locale={locale} />
           </div>
         </div>

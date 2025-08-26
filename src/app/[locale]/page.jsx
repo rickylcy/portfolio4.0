@@ -2,7 +2,10 @@ import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import AnimatedButton from "../../components/AnimatedButton";
 import FeaturedProjects from "../../components/FeaturedProjects";
-import { getProjectsByLocale } from "../../lib/projects";
+import {
+  getFeaturedProjectsByLocale,
+  getProjectsByLocale,
+} from "../../lib/projects";
 import ResumePreviewCard from "../../components/ResumePreviewCard";
 import SkillsSection from "@/components/SkillsSection";
 import LighthouseBadges from "../../components/home/LighthouseBadges";
@@ -14,7 +17,7 @@ export default async function HomePage({ params }) {
   const tHero = await getTranslations({ locale, namespace: "hero" });
   const tHome = await getTranslations({ locale, namespace: "home" });
 
-  const items = getProjectsByLocale(locale).slice(0, 3);
+  const items = getFeaturedProjectsByLocale(locale, 3);
 
   return (
     <main className="container mx-auto px-6 py-16">

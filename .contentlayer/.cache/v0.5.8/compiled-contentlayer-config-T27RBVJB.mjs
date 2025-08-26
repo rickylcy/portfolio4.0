@@ -13,7 +13,9 @@ var Project = defineDocumentType(() => ({
     tags: { type: "list", of: { type: "string" } },
     cover: { type: "string" },
     links: { type: "json" },
-    date: { type: "date" }
+    date: { type: "date" },
+    featured: { type: "boolean", default: false },
+    featuredRank: { type: "number", required: false }
   },
   computedFields: {
     locale: {
@@ -38,4 +40,4 @@ var contentlayer_config_default = makeSource({
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-MSPNRHGS.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-T27RBVJB.mjs.map

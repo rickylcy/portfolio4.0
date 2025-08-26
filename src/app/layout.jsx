@@ -17,11 +17,11 @@ export default function RootLayout({ children }) {
       <body className="min-h-screen bg-[var(--color-background)] text-[var(--color-foreground)]">
         <ThemeProvider>
           <A11yMotionBridge>{children}</A11yMotionBridge>
-        </ThemeProvider>
 
-        {/* Accessibility */}
-        <A11yProvider />
-        <A11yFab />
+          {/* Accessibility */}
+          <A11yProvider />
+          <A11yFab />
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -14,6 +14,8 @@ const Project = defineDocumentType(() => ({
     cover: { type: "string" },
     links: { type: "json" },
     date: { type: "date" },
+    featured: { type: "boolean", default: false },
+    featuredRank: { type: "number", required: false },
   },
   computedFields: {
     locale: {

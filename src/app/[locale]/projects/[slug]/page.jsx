@@ -1,23 +1,30 @@
 import { notFound } from "next/navigation";
-import { getProject, getTwin } from "../../../../lib/projects";
+import { setRequestLocale } from "next-intl/server";
+import {
+  getProject,
+  getTwin,
+  getAllLocaleSlugPairs,
+} from "../../../../lib/projects";
 import MDXRenderer from "../../../../components/MDXRenderer";
-
-import useMDXComponents from "../../../mdx-components";
+import ProjectGallery from "@/components/projects/ProjectGallery";
 import Image from "next/image";
 
 export async function generateStaticParams() {
-  const { allProjects } = await import("contentlayer/generated");
-  return allProjects.map((p) => ({ locale: p.locale, slug: p.slug }));
+  // use the same slug normalization as the data layer
+  return getAllLocaleSlugPairs();
 }
+
 export async function generateMetadata({ params }) {
   const { locale, slug } = await params;
   const project = getProject(locale, slug);
   if (!project) return {};
+
   const title = `${project.title} – Ricky Lau`;
   const description = project.subtitle || "Project case study";
   const ogUrl = `/api/og?locale=${locale}&title=${encodeURIComponent(
     project.title
   )}&subtitle=${encodeURIComponent(project.subtitle || "")}`;
+
   return {
     title,
     description,
@@ -42,10 +49,10 @@ export async function generateMetadata({ params }) {
 
 export default async function ProjectDetail({ params }) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
+
   const project = getProject(locale, slug);
   if (!project) return notFound();
-
-  const components = useMDXComponents({ Image });
 
   const twin = getTwin(project);
 
@@ -58,22 +65,24 @@ export default async function ProjectDetail({ params }) {
       <header className="mt-4">
         <h1 className="text-3xl font-bold">{project.title}</h1>
         {project.subtitle && (
-          <p className="mt-1 text-gray-600 dark:text-gray-300">
-            {project.subtitle}
-          </p>
+          <p className="mt-1 text-muted-foreground">{project.subtitle}</p>
         )}
+
         <div className="mt-3 flex flex-wrap gap-2">
-          <span className="text-xs rounded-full border px-2 py-0.5 capitalize">
-            {project.status.replace("-", " ")}
-          </span>
+          {project.status && (
+            <span className="text-xs rounded-full border px-2 py-0.5 capitalize">
+              {String(project.status).replace("-", " ")}
+            </span>
+          )}
           {project.tags?.map((tg) => (
             <span key={tg} className="text-xs rounded-full border px-2 py-0.5">
               {tg}
             </span>
           ))}
         </div>
+
         {project.cover && (
-          <div className="mt-6 relative aspect-video bg-gray-100 dark:bg-zinc-800 overflow-hidden rounded-xl">
+          <div className="mt-6 relative aspect-video overflow-hidden rounded-xl bg-gray-100 dark:bg-zinc-800">
             <Image
               src={project.cover}
               alt={project.title}
@@ -85,7 +94,7 @@ export default async function ProjectDetail({ params }) {
       </header>
 
       <article className="prose dark:prose-invert max-w-none mt-8">
-        <MDXRenderer code={project.body.code} />
+        {project.body?.code ? <MDXRenderer code={project.body.code} /> : null}
       </article>
 
       {project.links?.demo && (
@@ -108,6 +117,11 @@ export default async function ProjectDetail({ params }) {
           </a>
         </div>
       )}
+
+      <ProjectGallery
+        images={project.screenshots || []}
+        altBase={project.title}
+      />
     </main>
   );
 }

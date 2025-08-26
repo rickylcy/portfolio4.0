@@ -20,6 +20,8 @@ export type Project = {
   cover?: string | undefined
   links?: any | undefined
   date?: IsoDateTimeString | undefined
+  featured: boolean
+  featuredRank?: number | undefined
   /** MDX file body */
   body: MDX
   locale: string

@@ -1,9 +1,12 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Tailwind v4 dark variant that keys off `.dark` on <html> */
 @custom-variant dark (&:is(.dark *));
 
-/* Theme tokens (v4 style) */
+/* ===========================
+   Theme tokens (OKLCH-first)
+   =========================== */
 
 .dark {
   --background: oklch(0.141 0.005 285.823);
@@ -39,7 +42,7 @@
   --sidebar-ring: oklch(0.552 0.016 285.938);
 }
 
-/* Expose tokens to Tailwind via @theme inline */
+/* Expose tokens to Tailwind via @theme inline (v4) */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -112,6 +115,7 @@ body {
   }
 }
 
+/* Light theme tokens */
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -155,9 +159,12 @@ body {
     @apply bg-background text-foreground;
   }
 }
-/* === Accessibility toggles (stronger site-wide effects) === */
 
-/* Bigger base text (bump more so it's obvious) */
+/* =========================================
+   Accessibility toggles (site-wide effects)
+   ========================================= */
+
+/* Bigger base text */
 html.a11y-text-lg {
   font-size: 20px;
 }
@@ -167,7 +174,7 @@ html.a11y-text-lg {
   }
 }
 
-/* Spacious line-height: hit typical text containers too */
+/* Spacious line-height (force on common text containers) */
 html.a11y-line-spacious body,
 html.a11y-line-spacious p,
 html.a11y-line-spacious li,
@@ -175,20 +182,20 @@ html.a11y-line-spacious .prose :where(p, li) {
   line-height: 1.85 !important;
 }
 
-/* Underline all links (also inside shadcn components) */
+/* Underline all links, including inside components */
 html.a11y-underline-links :where(a) {
   text-decoration: underline !important;
   text-underline-offset: 2px;
 }
 
-/* Always show focus outline, regardless of focus-visible/rings */
+/* Always show focus outline */
 html.a11y-focus-always
   :where(a, button, input, textarea, select, [role="button"]):focus {
-  outline: 2px solid #2563eb !important;
+  outline: 2px solid #2563eb !important; /* blue-600 */
   outline-offset: 2px;
 }
 
-/* Reduce motion (CSS animations & transitions) */
+/* Reduce motion for CSS animations & transitions */
 html.a11y-reduce-motion *,
 html.a11y-reduce-motion *::before,
 html.a11y-reduce-motion *::after {
@@ -198,40 +205,41 @@ html.a11y-reduce-motion *::after {
   scroll-behavior: auto !important;
 }
 
-/* High contrast: override shadcn/ui HSL tokens so components update */
+/* High contrast:
+   Use valid CSS colors so tokens work with `background: var(--color-background)` */
 html.a11y-contrast {
-  /* Light theme tokens */
-  --background: 255 255 255; /* white */
-  --foreground: 10 10 10; /* almost black */
+  /* Light theme overrides */
+  --background: #ffffff;
+  --foreground: #0a0a0a;
 
-  --muted: 243 244 246; /* zinc-100 */
-  --muted-foreground: 55 65 81; /* zinc-700 */
+  --muted: #f3f4f6; /* zinc-100 */
+  --muted-foreground: #374151; /* zinc-700 */
 
-  --accent: 229 231 235; /* zinc-200 */
-  --accent-foreground: 17 24 39; /* zinc-900 */
+  --accent: #e5e7eb; /* zinc-200 */
+  --accent-foreground: #111827; /* zinc-900 */
 
-  --border: 30 41 59; /* stronger border (slate-800-ish) */
-  --input: 30 41 59;
-  --ring: 37 99 235; /* blue-600 for visible rings */
+  --border: #1f2937; /* slate-800 */
+  --input: #1f2937;
+  --ring: #2563eb; /* blue-600 */
 }
 
 html.dark.a11y-contrast {
-  /* Dark theme tokens */
-  --background: 10 10 10; /* near-black */
-  --foreground: 250 250 250; /* near-white */
+  /* Dark theme overrides */
+  --background: #0a0a0a; /* near-black */
+  --foreground: #fafafa; /* near-white */
 
-  --muted: 24 24 27; /* zinc-900 */
-  --muted-foreground: 209 213 219; /* zinc-300 */
+  --muted: #18181b; /* zinc-900 */
+  --muted-foreground: #d1d5db; /* zinc-300 */
 
-  --accent: 39 39 42; /* zinc-800 */
-  --accent-foreground: 250 250 250;
+  --accent: #27272a; /* zinc-800 */
+  --accent-foreground: #fafafa;
 
-  --border: 113 113 122; /* zinc-500-ish for clear borders */
-  --input: 113 113 122;
-  --ring: 59 130 246; /* blue-500 */
+  --border: #71717a; /* zinc-500 */
+  --input: #71717a;
+  --ring: #3b82f6; /* blue-500 */
 }
 
-/* Also make “muted” text more legible when high contrast is on */
+/* Make muted text more legible in high contrast */
 html.a11y-contrast .text-muted-foreground {
   color: rgb(55 65 81) !important;
 }
