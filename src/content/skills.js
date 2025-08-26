@@ -4,9 +4,9 @@ export const skills = {
     { name: "React", level: "intermediate" },
     { name: "Next.js (App Router)", level: "intermediate" },
     { name: "Tailwind CSS", level: "intermediate" },
-    { name: "shadcn/ui", level: "intermediate" },
+    { name: "Shadcn/ui", level: "intermediate" },
     { name: "Material UI", level: "intermediate" },
-
+    { name: "Bootstrap", level: "intermediate" },
     { name: "Zustand", level: "intermediate" },
 
     { name: "Framer Motion", level: "basic" },
@@ -30,6 +30,7 @@ export const skills = {
     { name: "Vercel", level: "intermediate" },
 
     { name: "Git", level: "intermediate" },
+    { name: "Cloud (GCP/Azure/AWS)", level: "basic" },
     { name: "GitHub Actions", level: "basic" },
     { name: "Playwright (e2e)", level: "basic" },
     { name: "Postman", level: "basic" },
