@@ -75,7 +75,6 @@ export default function MobileDrawer({ open, onOpenChange, locale, t }) {
         </nav>
 
         <div className="mt-auto border-t px-4 py-3 flex items-center justify-between">
-          <ThemeToggle />
           <LanguageSwitch locale={locale} />
         </div>
       </aside>
