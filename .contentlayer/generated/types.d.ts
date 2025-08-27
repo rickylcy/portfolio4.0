@@ -15,13 +15,15 @@ export type Project = {
   type: 'Project'
   title: string
   subtitle?: string | undefined
-  status: string
+  status?: string | undefined
   tags?: string[] | undefined
   cover?: string | undefined
-  links?: any | undefined
   date?: IsoDateTimeString | undefined
+  links?: any | undefined
+  screenshots?: string[] | undefined
   featured: boolean
   featuredRank?: number | undefined
+  description?: string | undefined
   /** MDX file body */
   body: MDX
   locale: string

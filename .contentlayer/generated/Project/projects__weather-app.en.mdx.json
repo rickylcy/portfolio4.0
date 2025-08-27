@@ -10,6 +10,9 @@
   "links": {
     "demo": "https://ricky-weather-app.vercel.app/"
   },
+  "screenshots": [
+    "/screenshots/weather-1.png"
+  ],
   "featured": false,
   "body": {
     "raw": "\n## Overview\n\nCompare the weather of two cities and show time zone differences using OpenWeatherMap.\n\n## Technologies\n\n- React\n- Redux\n\n## Tasks\n\n- Build UI with React + SCSS\n- Integrate OpenWeatherMap API\n- Deploy on Vercel\n\n## Screenshots\n\n- `/weather-1.png`\n",

@@ -8,6 +8,10 @@
   ],
   "cover": "/chat-app.png",
   "date": "2024-06-15T00:00:00.000Z",
+  "screenshots": [
+    "/screenshots/chat-app-1.png",
+    "/screenshots/chat-app-2.png"
+  ],
   "featured": false,
   "body": {
     "raw": "\n## 概覽\n\n中文內容。\n",

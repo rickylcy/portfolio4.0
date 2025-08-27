@@ -10,6 +10,9 @@
   "links": {
     "demo": "https://ricky-weather-app.vercel.app/"
   },
+  "screenshots": [
+    "/screenshots/weather-1.png"
+  ],
   "featured": false,
   "body": {
     "raw": "\n## 概覽\n\n可比較兩個城市的天氣並顯示時區差異，資料來源為 OpenWeatherMap。\n\n## 技術\n\n- React\n- Redux\n\n## 任務\n\n- 使用 React + SCSS 製作 UI\n- 串接 OpenWeatherMap API\n- 部署於 Vercel\n\n## 截圖\n\n- `/weather-1.png`\n",

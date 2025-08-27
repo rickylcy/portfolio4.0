@@ -11,6 +11,9 @@
   "links": {
     "demo": "https://visatochina.com.au/"
   },
+  "screenshots": [
+    "/screenshots/visa-1.png"
+  ],
   "featured": true,
   "featuredRank": 3,
   "body": {

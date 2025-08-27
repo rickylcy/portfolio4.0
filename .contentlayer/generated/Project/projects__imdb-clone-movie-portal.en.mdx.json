@@ -12,6 +12,10 @@
   "links": {
     "demo": "https://ricky-movie-portal.vercel.app/"
   },
+  "screenshots": [
+    "/screenshots/movie-1.png",
+    "/screenshots/movie-2.png"
+  ],
   "featured": false,
   "body": {
     "raw": "\n## Overview\n\nA Next.js + Tailwind CSS app to browse movies by trending and top-rated categories, powered by TMDB.\n\n## Technologies\n\n- Next.js\n- Tailwind CSS\n\n## Tasks\n\n- Design & build responsive UI with React + Tailwind\n- Integrate TMDB API for movie data\n- Deploy on Vercel\n\n## Screenshots\n\n- `/movie.png`\n- `/movie1.png`\n",

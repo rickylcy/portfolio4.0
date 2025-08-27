@@ -65,6 +65,10 @@
     "links": {
       "demo": "https://anyportal.vercel.app"
     },
+    "screenshots": [
+      "/screenshots/anyportal-1.png",
+      "/screenshots/anyportal-2.png"
+    ],
     "featured": false,
     "body": {
       "raw": "\n## Overview\n\nAn online forum project for discussions. (Known 404 issue on first load — a refresh fixes it.)\n\n## Technologies\n\n- Next.js\n- CSS\n- JavaScript\n- MongoDB (planned)\n\n## Tasks\n\n- Design a responsive forum UI\n- Implement authentication\n- Set up MongoDB for data storage\n",
@@ -95,6 +99,10 @@
     "links": {
       "demo": "https://anyportal.vercel.app"
     },
+    "screenshots": [
+      "/screenshots/anyportal-1.png",
+      "/screenshots/anyportal-2.png"
+    ],
     "featured": false,
     "body": {
       "raw": "\n## 概覽\n\n用於討論交流的線上論壇專案。（首次載入可能出現 404，重新整理可解決。）\n\n## 技術\n\n- Next.js\n- CSS\n- JavaScript\n- MongoDB（規劃中）\n\n## 任務\n\n- 設計響應式論壇介面\n- 實作登入驗證\n- 建置 MongoDB 儲存\n",
@@ -160,6 +168,10 @@
     "links": {
       "demo": "https://ricky-movie-portal.vercel.app/"
     },
+    "screenshots": [
+      "/screenshots/movie-1.png",
+      "/screenshots/movie-2.png"
+    ],
     "featured": false,
     "body": {
       "raw": "\n## Overview\n\nA Next.js + Tailwind CSS app to browse movies by trending and top-rated categories, powered by TMDB.\n\n## Technologies\n\n- Next.js\n- Tailwind CSS\n\n## Tasks\n\n- Design & build responsive UI with React + Tailwind\n- Integrate TMDB API for movie data\n- Deploy on Vercel\n\n## Screenshots\n\n- `/movie.png`\n- `/movie1.png`\n",
@@ -192,6 +204,10 @@
     "links": {
       "demo": "https://ricky-movie-portal.vercel.app/"
     },
+    "screenshots": [
+      "/screenshots/movie-1.png",
+      "/screenshots/movie-2.png"
+    ],
     "featured": false,
     "body": {
       "raw": "\n## 概覽\n\n以 Next.js + Tailwind CSS 製作的電影瀏覽網站，提供熱門與高分分類，資料來自 TMDB。\n\n## 技術\n\n- Next.js\n- Tailwind CSS\n\n## 任務\n\n- 使用 React + Tailwind 打造響應式 UI\n- 串接 TMDB API\n- 部署於 Vercel\n\n## 截圖\n\n- `/movie.png`\n- `/movie1.png`\n",
@@ -400,6 +416,10 @@
     ],
     "cover": "/chat-app.png",
     "date": "2024-06-15T00:00:00.000Z",
+    "screenshots": [
+      "/screenshots/chat-app-1.png",
+      "/screenshots/chat-app-2.png"
+    ],
     "featured": false,
     "body": {
       "raw": "\n## Overview\n\nHello from EN.\n",
@@ -428,6 +448,10 @@
     ],
     "cover": "/chat-app.png",
     "date": "2024-06-15T00:00:00.000Z",
+    "screenshots": [
+      "/screenshots/chat-app-1.png",
+      "/screenshots/chat-app-2.png"
+    ],
     "featured": false,
     "body": {
       "raw": "\n## 概覽\n\n中文內容。\n",
@@ -456,6 +480,10 @@
       "Responsive"
     ],
     "cover": "/sales-report.png",
+    "screenshots": [
+      "/screenshots/report-1.png",
+      "/screenshots/report-2.png"
+    ],
     "featured": true,
     "featuredRank": 2,
     "body": {
@@ -485,6 +513,10 @@
       "Responsive"
     ],
     "cover": "/sales-report.png",
+    "screenshots": [
+      "/screenshots/report-1.png",
+      "/screenshots/report-2.png"
+    ],
     "featured": true,
     "featuredRank": 2,
     "body": {
@@ -517,6 +549,9 @@
     "links": {
       "demo": "https://visatochina.com.au/"
     },
+    "screenshots": [
+      "/screenshots/visa-1.png"
+    ],
     "featured": true,
     "featuredRank": 3,
     "body": {
@@ -549,6 +584,9 @@
     "links": {
       "demo": "https://visatochina.com.au/"
     },
+    "screenshots": [
+      "/screenshots/visa-1.png"
+    ],
     "featured": true,
     "featuredRank": 3,
     "body": {
@@ -580,6 +618,9 @@
     "links": {
       "demo": "https://ricky-weather-app.vercel.app/"
     },
+    "screenshots": [
+      "/screenshots/weather-1.png"
+    ],
     "featured": false,
     "body": {
       "raw": "\n## Overview\n\nCompare the weather of two cities and show time zone differences using OpenWeatherMap.\n\n## Technologies\n\n- React\n- Redux\n\n## Tasks\n\n- Build UI with React + SCSS\n- Integrate OpenWeatherMap API\n- Deploy on Vercel\n\n## Screenshots\n\n- `/weather-1.png`\n",
@@ -610,6 +651,9 @@
     "links": {
       "demo": "https://ricky-weather-app.vercel.app/"
     },
+    "screenshots": [
+      "/screenshots/weather-1.png"
+    ],
     "featured": false,
     "body": {
       "raw": "\n## 概覽\n\n可比較兩個城市的天氣並顯示時區差異，資料來源為 OpenWeatherMap。\n\n## 技術\n\n- React\n- Redux\n\n## 任務\n\n- 使用 React + SCSS 製作 UI\n- 串接 OpenWeatherMap API\n- 部署於 Vercel\n\n## 截圖\n\n- `/weather-1.png`\n",

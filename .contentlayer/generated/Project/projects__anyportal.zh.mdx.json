@@ -10,6 +10,10 @@
   "links": {
     "demo": "https://anyportal.vercel.app"
   },
+  "screenshots": [
+    "/screenshots/anyportal-1.png",
+    "/screenshots/anyportal-2.png"
+  ],
   "featured": false,
   "body": {
     "raw": "\n## 概覽\n\n用於討論交流的線上論壇專案。（首次載入可能出現 404，重新整理可解決。）\n\n## 技術\n\n- Next.js\n- CSS\n- JavaScript\n- MongoDB（規劃中）\n\n## 任務\n\n- 設計響應式論壇介面\n- 實作登入驗證\n- 建置 MongoDB 儲存\n",

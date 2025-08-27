@@ -12,6 +12,10 @@
   "links": {
     "demo": "https://ricky-movie-portal.vercel.app/"
   },
+  "screenshots": [
+    "/screenshots/movie-1.png",
+    "/screenshots/movie-2.png"
+  ],
   "featured": false,
   "body": {
     "raw": "\n## 概覽\n\n以 Next.js + Tailwind CSS 製作的電影瀏覽網站，提供熱門與高分分類，資料來自 TMDB。\n\n## 技術\n\n- Next.js\n- Tailwind CSS\n\n## 任務\n\n- 使用 React + Tailwind 打造響應式 UI\n- 串接 TMDB API\n- 部署於 Vercel\n\n## 截圖\n\n- `/movie.png`\n- `/movie1.png`\n",

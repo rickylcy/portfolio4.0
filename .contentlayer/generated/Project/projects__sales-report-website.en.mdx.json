@@ -8,6 +8,10 @@
     "Responsive"
   ],
   "cover": "/sales-report.png",
+  "screenshots": [
+    "/screenshots/report-1.png",
+    "/screenshots/report-2.png"
+  ],
   "featured": true,
   "featuredRank": 2,
   "body": {

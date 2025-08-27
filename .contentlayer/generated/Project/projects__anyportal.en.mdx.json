@@ -10,6 +10,10 @@
   "links": {
     "demo": "https://anyportal.vercel.app"
   },
+  "screenshots": [
+    "/screenshots/anyportal-1.png",
+    "/screenshots/anyportal-2.png"
+  ],
   "featured": false,
   "body": {
     "raw": "\n## Overview\n\nAn online forum project for discussions. (Known 404 issue on first load — a refresh fixes it.)\n\n## Technologies\n\n- Next.js\n- CSS\n- JavaScript\n- MongoDB (planned)\n\n## Tasks\n\n- Design a responsive forum UI\n- Implement authentication\n- Set up MongoDB for data storage\n",

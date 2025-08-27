@@ -87,7 +87,7 @@ export default async function ProjectDetail({ params }) {
               src={project.cover}
               alt={project.title}
               fill
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         )}
